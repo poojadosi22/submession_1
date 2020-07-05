@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: #000000	;
+	
+}
+
+.navbar2{
+	padding-top:  5%;
+	padding-right: 2%;
+
+}
+.navbar2 ul{
+	list-style: none;
+	float: right;
+}
+.navbar2 ul li{
+	display: inline-block;
+}
+.navbar2 ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 15px;
+	border: 1px solid #fff;
+}
+.heading h1{
+    margin: 4%;
+    font-size: 60px;
+	text-align: center;
+	color: #FF6347;
+	text-decoration: underline;
+
+}
+.skl{
+	text-align: center;
+}
+.skl h4{
+	margin: 1%;
+    font-size: 28px;
+	text-align: center;
+	color: #5F9EA0;
+}
+.heading hr{
+	border-top: 3px solid #000;
+	border-bottom: 3px dotted #E0FFFF	;
+}
+.download{
+	position: relative;
+	text-align: center;
+	width: 120px;
+	font-size: 15px;
+	padding: 10px;
+	color: #0000FF;
+	font-family: poppins;
+	font-weight: 100;
+	border: 2px solid #0000FF;
+	text-transform: uppercase;
+	border-radius: 100px;
+	transition: 1.5s;
+}
+.download:hover
+{
+	box-shadow: 0 2px 30px 0 #000080	 inset, 0 2px 30px 0 #000080	,
+				0 2px 30px 0 #000080	 inset, 0 2px 30px 0 #000080	;
+}
